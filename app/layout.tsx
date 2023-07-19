@@ -2,7 +2,6 @@
 import './globals.css';
 
 import Grid from '@mui/material/Grid';
-import type { Metadata } from 'next';
 import { Inter } from 'next/font/google';
 
 import SidebarMenu from './shared/sidebar/sidebar';
@@ -34,6 +33,7 @@ export default function RootLayout({
     const params = useSearchParams();
     const router = useRouter();
     const [showImage, setShowImage] = useState(true);
+    const [container, setContainer] = useState<() => HTMLElement>();
     const [mobileOpen, setMobileOpen] = React.useState(false);
 
     const handleDrawerToggle = () => {
@@ -43,6 +43,7 @@ export default function RootLayout({
         if (params.get('showLogo') && params.get('showLogo') == 'false') {
             setShowImage(false);
         }
+        setContainer(() => window.document.body);
     }, [params]);
 
     const drawer = (
@@ -57,8 +58,8 @@ export default function RootLayout({
             <SidebarMenu />
         </Box>
     );
-    const container =
-        window !== undefined ? () => window.document.body : undefined;
+    // const container =
+    //     window !== undefined ? () => window.document.body : undefined;
     return (
         <html lang="en">
             <body className={inter.className}>
