@@ -62,6 +62,9 @@ export default function RootLayout({
     //     window !== undefined ? () => window.document.body : undefined;
     return (
         <html lang="en">
+            <head>
+                <title>Api documentation</title>
+            </head>
             <body className={inter.className}>
                 <Box
                     sx={{
