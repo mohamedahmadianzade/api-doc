@@ -16,7 +16,7 @@ export default function SidebarMenu() {
                         }
                         component={<Link href="/targetGroup" />}
                     >
-                        Target Group
+                        Target Groups
                     </MenuItem>
                     <MenuItem
                         className={
