@@ -4,6 +4,7 @@ import './page.css';
 import { Alert } from '@mui/material';
 import Grid from '@mui/material/Grid';
 import Image from 'next/image';
+import auth from '../assets/auth.png';
 
 import CodeBox from '../shared/codeBox/codeBox';
 import Header from '../shared/header/header';
@@ -23,7 +24,7 @@ export default function Authentication() {
                         alt="api key"
                         height={0}
                         sizes="100vw"
-                        src="https://api.oxolo.com/images/api_key-e6d1fc36.png"
+                        src={auth}
                         style={{ width: '100%', height: 'auto' }}
                         width={0}
                     />

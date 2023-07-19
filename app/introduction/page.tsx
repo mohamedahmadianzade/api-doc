@@ -5,6 +5,7 @@ import './page.css';
 import Image from 'next/image';
 
 import Header from '../shared/header/header';
+import auth from '../assets/actor.jpg';
 export default function Introducton() {
     return (
         <>
@@ -40,7 +41,7 @@ export default function Introducton() {
                     <Image
                         alt="api key"
                         height={300}
-                        src="https://img.youtube.com/vi/tv6AUf6ZRKI/0.jpg"
+                        src={auth}
                         style={{
                             width: '350px',
                             height: 'auto',
