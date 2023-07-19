@@ -66,12 +66,6 @@ module.exports = {
                 checkAliases: true,
             },
         ],
-        'react/jsx-sort-props': [
-            'error',
-            {
-                ignoreCase: true,
-            },
-        ],
         'react-hooks/rules-of-hooks': 'error',
         'react-hooks/exhaustive-deps': 0,
         // Prettier
