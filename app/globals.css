@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --foreground-rgb: 0, 0, 0;
+    --background-start-rgb: 214, 219, 220;
+    --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        --foreground-rgb: 255, 255, 255;
+        --background-start-rgb: 0, 0, 0;
+        --background-end-rgb: 0, 0, 0;
+    }
+}
+
+body {
+    color: rgb(var(--foreground-rgb));
+}
+li > span {
+    font-size: 20px;
+    line-height: 40px;
+}
+
+
+code {
+    overflow: none;
+}
+
+.scroll--itunes::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+.scroll--itunes::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #8887d6;
+    box-shadow:
+        0 0 1px 1px #bbb,
+        inset 0 0 7px rgba(0, 0, 0, 0.3);
+}
+::-webkit-scrollbar {
+    width: 15px;
+    height: 15px;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: #eee;
+    box-shadow:
+        0 0 1px 1px #bbb,
+        inset 0 0 7px rgba(0, 0, 0, 0.3);
+}
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #3470ca;
+    box-shadow:
+        0 0 1px 1px #bbb,
+        inset 0 0 7px rgba(0, 0, 0, 0.3);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #3470ca;
+}
+p {
+    text-align: justify;
+}
+
+.resultSection {
+    margin: 20px;
+}
+
+.MuiTabs-root {
+    padding-left: 20px;
+}
+
+.MuiTypography-root {
+    cursor: pointer;
+}
+
+code {
+    overflow-wrap: break-word;
+}
+.normalMenu {
+    text-align: left;
+}
+
+
+.activeMenu {
+    font-weight: 800;
+    text-align: left;
+
+}

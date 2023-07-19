@@ -1,0 +1,16 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 10;
+}
+p {
+    padding-bottom: 15px;
+}
+.row {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: row;
+}
+.rowSpan {
+    padding-left: 8px;
+}

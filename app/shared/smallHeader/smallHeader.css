@@ -1,0 +1,9 @@
+.smallheader {
+    line-height: 2;
+    font-size: 22px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-bottom-color: #ebebeb;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}

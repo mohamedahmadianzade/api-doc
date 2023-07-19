@@ -1,0 +1,15 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 10;
+}
+p {
+    padding-bottom: 15px;
+}
+img {
+}
+
+.authenticationContent {
+    display: flex;
+    flex-direction: row;
+}

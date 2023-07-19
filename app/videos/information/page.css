@@ -1,0 +1,11 @@
+.main {
+    display: flex;
+    flex-direction: column;
+    padding: 10;
+}
+p {
+    padding-bottom: 15px;
+}
+.rowSpan {
+    padding-left: 15px;
+}

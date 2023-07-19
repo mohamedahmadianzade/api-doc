@@ -1,0 +1,9 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+p {
+    padding-bottom: 15px;
+}
+img {
+}
